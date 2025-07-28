@@ -27,9 +27,9 @@ pip install telethon
 在 `qiandao.py` 文件中配置您的Telegram API信息：
 
 ```python
-API_ID = 24630859  # 您的 API ID
-API_HASH = "9d05528948e3cca656a35ac7030c1fb3"  # 您的 API Hash
-PHONE_NUMBER = "+642040610977"  # 您的手机号
+API_ID = *****  # 您的 API ID
+API_HASH = "*****"  # 您的 API Hash
+PHONE_NUMBER = "+64*****"  # 您的手机号
 ```
 
 ### 3. 首次运行
@@ -97,11 +97,9 @@ python test_group.py
 
 ```python
 TARGET_BOTS = [
-    {"username": "@bizuiba_bot", "message": "/checkin"},
-    {"username": "@Zonesgk_bot", "message": "/qd"},
-    {"username": "@haowangshegongkubot", "message": "/sign"},
-    {"username": "@jiux_vpn_bot", "message": "/checkin"},
-    {"username": "@share_mjj_bot", "message": "/checkin"},
+    {"username": "@****", "message": "/checkin"},
+    {"username": "@****", "message": "/qd"},
+    {"username": "@****", "message": "/sign"},
 ]
 ```
 
@@ -111,7 +109,7 @@ TARGET_BOTS = [
 
 ```python
 TARGET_GROUPS = [
-    {"chat_id": -1001849751823, "message": "/checkin"},
+    {"chat_id": -****, "message": "/checkin"},
 ]
 ```
 
