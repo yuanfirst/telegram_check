@@ -4,8 +4,8 @@ import json
 import os
 
 # 使用相同的配置
-API_ID = 24630859
-API_HASH = "9d05528948e3cca656a35ac7030c1fb3"
+API_ID = *****
+API_HASH = "*****"
 GROUPS_FILE = "saved_groups.json"
 
 class GroupManager:
