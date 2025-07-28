@@ -2,9 +2,9 @@ from telethon import TelegramClient
 import asyncio
 
 # 使用相同的配置
-API_ID = 24630859
-API_HASH = "9d05528948e3cca656a35ac7030c1fb3"
-TARGET_GROUP_ID = -1002693359089
+API_ID = ****
+API_HASH = "****"
+TARGET_GROUP_ID = -****
 
 async def test_group_access():
     """测试群组访问权限"""
