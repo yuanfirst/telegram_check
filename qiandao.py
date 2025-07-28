@@ -5,19 +5,17 @@ import os
 from datetime import datetime
 
 # ====== 配置区 ======
-API_ID = 24630859  # 你的 API ID
-API_HASH = "9d05528948e3cca656a35ac7030c1fb3"  # 你的 API Hash
+API_ID = ****  # 你的 API ID
+API_HASH = "****"  # 你的 API Hash
 TARGET_BOTS = [
-    {"username": "@bizuiba_bot", "message": "/checkin"},
-    {"username": "@Zonesgk_bot", "message": "/qd"},
-    {"username": "@haowangshegongkubot", "message": "/sign"},
-    {"username": "@jiux_vpn_bot", "message": "/checkin"},
-    {"username": "@share_mjj_bot", "message": "/checkin"},
+    {"username": "@****", "message": "/checkin"},
+    {"username": "@****", "message": "/qd"},
+    {"username": "@****", "message": "/sign"},
 ]
 TARGET_GROUPS = [
-    {"chat_id": -1001849751823, "message": "/checkin"},
+    {"chat_id": -****, "message": "/checkin"},
 ]
-PHONE_NUMBER = "+642040610977"  # 你的手机号
+PHONE_NUMBER = "+64****"  # 你的手机号
 SIGN_RECORD_FILE = "sign_record.txt"
 
 # 日志配置
